@@ -1,0 +1,133 @@
+.menu {
+	background-color: #450155;
+	width: 15%;
+	color:white;
+	border-radius: 15px;
+	padding: 10px 20px;
+	position: fixed;
+	height: 95vh;
+	font-weight: bold;
+}
+.menu a{
+	color:white;
+	text-decoration: none;
+	display: block;
+	padding: 8px 16px;
+}
+.interior, .services, .desighers, .packages, .contacts {
+	margin-left: 25%;
+	margin-right: 5%;
+
+}
+h1{
+	font-size: 61px;
+
+}
+h2{
+	font-size: 48px;
+	color: #45015D;
+
+}
+hr {
+	width: 100%;
+	border:5px solid #450155;
+	border-radius: 10px;
+}
+.interior img{
+	width: 45%;
+	border-radius: 10px;
+	margin: 5px 5px 5px 5px;
+
+}
+.team {
+width: 30%;
+display: inline-block; 
+margin: 15px;
+}
+.team img {
+border-radius: 10px;
+width: 100%;
+}
+div .text {
+border-radius: 10px;
+background-color:  lightgrey;
+padding: 5px 15px 5px 15px;
+text-align: left;
+}
+.team .p1  {
+color: grey;
+}
+.conteiner{
+	text-align: center;
+
+}
+.tarif li {
+	border-bottom: 1px solid grey;
+    padding: 15px 0px;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+.tarif {
+	list-style: none;
+	width: 45%;
+	text-align: center;
+	 background-color: lightgrey;
+	 padding: 0;
+	 border-radius: 10px;
+	 display: inline-block;
+	 margin:5px 5px 5px 5px;
+}
+.tarif .title{
+background-color: purple;
+color:white;
+padding: 30px 30px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.tarif .money {
+font-size: 25px;
+font-weight: bold;	
+}
+.tarif .day {
+	color:grey;
+}
+.tarif a {
+border-radius: 15px;
+background-color: white;
+padding: 15px 15px;
+text-decoration:none;
+color:purple;
+display: inline-block;
+margin: 5px 5px;
+}
+.tarif.pro .title {
+	background-color: orange; 
+}
+.tarif.pro a {
+	background-color: orange;
+	color: white;
+}
+.contacts input{
+width: 90%;
+display: block;
+padding: 5px;
+}
+.contacts label{
+margin-top: 10px;
+display: block;
+}
+.contacts input[type=submit] {
+color: white;
+background-color: purple;
+border-radius: 10px;
+margin-top: 10px;
+width: calc(90% + 10px);
+}
+.Pover {
+background-color: lightgrey;
+text-align: right;
+height: 80px;
+padding: 35px;
+margin-top: 30px;
+}
